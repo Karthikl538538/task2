@@ -1,0 +1,67 @@
+* {
+    color: black;
+}
+
+.form-control {
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgba(45, 142, 213, 1) 48%, rgba(102, 204, 224, 1) 92%);
+    color: #ffff;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    line-height: 10px;
+}
+
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+#pass {
+    position: relative;
+
+}
+
+.toggle {
+    background: none;
+    border: none;
+    color: #337ab7;
+    /*display: none;*/
+    /*font-size: .9em;*/
+    font-weight: 600;
+    /*padding: .5em;*/
+    position: absolute;
+    right: .75em;
+    top: 0.6em;
+    z-index: 9;
+}
+.timer{
+    height: 75px;
+    background-color: #000080;
+    border-radius: 10px;
+}
+.timer span {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.hour, .minutes, .seconds{
+    font-weight: 900;
+    font-size: 28px;
+    color: #FF9933;
+}
+.minutes, .minutes span{
+    color: #FFFFFF;
+}
+.seconds, .seconds span{
+    color: #138808;
+}
+
